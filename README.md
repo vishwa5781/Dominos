@@ -227,8 +227,8 @@ Performance Overview: The table below summarizes the Mean Absolute Percentage Er
 
 ### Scores Visualization
 - Generated bar charts to compare MAPE scores across different models for quick performance assessment.
+![image](https://github.com/user-attachments/assets/e23443d7-b255-45b3-a66b-4934d2986cb4)
 
-![image](https://github.com/user-attachments/assets/941d9b80-1928-4a9a-a3f3-754412cd2a4a)
 
 ## Conclusion
 The SARIMA model outperformed other models, providing the most accurate sales predictions, while LSTM yielded the least accurate results. This project lays the groundwork for improving inventory management through data-driven forecasting techniques.
@@ -260,7 +260,7 @@ This section calculates the total quantity of ingredients needed based on predic
 
 <img width="721" alt="image" src="https://github.com/user-attachments/assets/1466b107-19ba-4bf8-9bbc-81182677558a">
 
-![image](https://github.com/user-attachments/assets/a0e9ca84-4235-4eb9-b804-18733b654d96)
+![image](https://github.com/user-attachments/assets/93e82d24-8cb6-4ebc-b031-74c6ce0cc5d6)
 
 <img width="276" alt="image" src="https://github.com/user-attachments/assets/f1975c39-bf2e-42d9-9b90-15e006ae4deb">
 
