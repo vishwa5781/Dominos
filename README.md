@@ -260,8 +260,6 @@ This section calculates the total quantity of ingredients needed based on predic
 
 <img width="721" alt="image" src="https://github.com/user-attachments/assets/1466b107-19ba-4bf8-9bbc-81182677558a">
 
-![image](https://github.com/user-attachments/assets/93e82d24-8cb6-4ebc-b031-74c6ce0cc5d6)
-
 <img width="276" alt="image" src="https://github.com/user-attachments/assets/f1975c39-bf2e-42d9-9b90-15e006ae4deb">
 
 ---
