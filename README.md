@@ -149,7 +149,6 @@ Created new variables from the raw sales data to improve the model’s performan
 
 Model Selection involves choosing the most suitable forecasting model for our sales data:
 
-- [__ARIMA (AutoRegressive Integrated Moving Average)__](https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.html): Captures trends and autocorrelations in non-seasonal data.
 - [__SARIMA (Seasonal ARIMA)__](https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.html): Extends ARIMA to handle seasonality.
 
 #### iii) Model Training
