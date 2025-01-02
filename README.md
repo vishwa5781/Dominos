@@ -94,9 +94,7 @@ You can download the datasets from the following links:
 - The y-axis represents different pizza names, while the x-axis shows the quantity sold.
 
 <div align="center">
-  
-![image](https://github.com/user-attachments/assets/3784b3a0-6a0e-4efb-9c7f-1de290136ae2)
-
+![image](https://github.com/user-attachments/assets/8fc4cd4a-2282-493c-bf88-d0da05912d30)
 </div>
 
 #### ii) Distribution of Pizza Categories:
@@ -106,7 +104,7 @@ You can download the datasets from the following links:
    
 <div align="center">
 
-![image](https://github.com/user-attachments/assets/795e0473-d3ec-40d0-8827-d7f60f029db6)
+![image](https://github.com/user-attachments/assets/f50535e4-6854-4aee-90d8-240988198818)
 
 </div>
 
@@ -117,7 +115,7 @@ You can download the datasets from the following links:
 
 <div align="center">
 
-![image](https://github.com/user-attachments/assets/673e6de1-c273-4176-87a0-96c472e5adae)
+![image](https://github.com/user-attachments/assets/5dac5a31-76dc-4eb2-ae61-a1ad1f1017a5)
 
 </div>
 
@@ -129,7 +127,7 @@ You can download the datasets from the following links:
 
 <div align="center">
 
-![image](https://github.com/user-attachments/assets/f93f5b5d-9ba1-4714-9f46-32f79fd46754)
+![image](https://github.com/user-attachments/assets/73199c4e-adcc-4895-87b2-95851c812b23)
 
 </div>
 
@@ -196,15 +194,16 @@ Model Training involves fitting the chosen model to historical sales data:
 
 ![image](https://github.com/user-attachments/assets/d0b25630-b219-43f9-9c64-2009400e8244)
 
-#### Regression Model
+#### Sarimax Model
 - Data Preparation: Converts order_date to datetime and aggregates weekly sales.
 - Feature Engineering: Creates features: week of the year, day of the week, month, and year.
 - Train-Test Split: Divides data into 80% training and 20% testing sets.
-- Model Training: Trains a linear regression model on the training set.
+- Model Training: Trains a sarimax model on the training set.
 - Model Evaluation: Calculates and prints MAPE for accuracy assessment.
 - Visualization: Plots actual vs. predicted weekly sales for performance evaluation.
 
-![image](https://github.com/user-attachments/assets/10c08dd4-72b1-4847-ba5a-52154b028d33)
+![image](https://github.com/user-attachments/assets/dfd12093-8b71-4a90-b218-29f2a361fa47)
+
 
 #### LSTM Model for Weekly Sales
 - Weekly sales data is aggregated and split into training (80%) and test sets, then normalized using MinMaxScaler.
@@ -218,14 +217,13 @@ Model Training involves fitting the chosen model to historical sales data:
 
 ### 🧩 Model Comparison: MAPE Scores
 Performance Overview: The table below summarizes the Mean Absolute Percentage Error (MAPE) scores of different forecasting models, highlighting their ranking and performance.
-
-| Model      | MAPE   | Rank | Best/Worst |
-|------------|--------|------|------------|
-| SARIMA     | 0.1849 | 1    | Best       |
-| ARIMA      | 0.1896 | 2    |            |
-| Regression | 0.1911 | 3    |            |
-| Prophet    | 0.1962 | 4    |            |
-| LSTM       | 0.2404 | 5    | Worst      |
+| Model      | MAPE     | Rank | Best/Worst |
+|------------|----------|------|------------|
+| SARIMAX    | 0.190251 | 1    | Best       |
+| ARIMA      | 0.197966 | 2    |            |
+| PROPHET    | 0.216333 | 3    |            |
+| LSTM       | 0.226969 | 4    |            |
+| SARIMA     | 0.232714 | 5    | Worst      |
 
 ### Scores Visualization
 - Generated bar charts to compare MAPE scores across different models for quick performance assessment.
