@@ -244,8 +244,7 @@ This section demonstrates how to load the best-performing SARIMA model and use i
 2. **Forecasting**: The model predicts sales for the next 7 days (`n_forecast = 7`).
 
 3. **Visualization**: A plot is generated to compare the training data with the forecasted sales, clearly illustrating expected future sales trends. The forecast is displayed in orange, while the training data is shown in blue.
-
-![image](https://github.com/user-attachments/assets/c01708ef-253f-4e54-b447-5c77e2131604)
+![image](https://github.com/user-attachments/assets/0a27e61a-425d-4591-883f-b511e82880c0)
 
 ### Predicted Ingredient Quantities
 
